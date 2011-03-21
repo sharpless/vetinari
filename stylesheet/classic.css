@@ -1,0 +1,134 @@
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 12px;
+  background-color: #EEF;
+}
+div#meny {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+div#meny ul {
+  margin-left: -40px;
+}
+div#meny h1 {
+  font-size: 36px;
+}
+div#meny li {
+  margin: 0 5px;
+  display: inline;
+  list-style-type: none;
+}
+div#meny a {
+  padding: 0.25em 1em;
+  text-decoration: none;
+}
+div#meny a:link {
+  color: #000000;
+  background: #9999CC;
+}
+div#meny a:visited {
+  color: #000000;
+  background: #9999CC;
+}
+div#meny a:hover {
+  background: #666699;
+  color: #ffffff
+}
+div#meny a#current {
+  background: #FFCC66;
+  color: #000000;
+}
+div#footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 10px;
+  width: 800px;
+}
+div#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+div#main p, h2, h3 {
+  margin: 10px;
+}
+div.leftCol {
+  width: 576px;
+  background-color: white;
+  float: left;
+}
+div.rightCol {
+  width: 204px;
+  float: right
+}
+.clear {
+  clear: both;
+}
+.alignright {
+  float: right;
+}
+.alignleft {
+  float: left;
+}
+p.small {
+  font-size: 9px;
+  border-bottom: solid 1px #99F;
+  border-top: solid 1px #99F;
+  display: block;
+  height: 12px;
+  margin: 0 -10px;
+  padding: 6px 10px;
+  background-color: #CCF;
+}
+h2 a {
+  color: black;
+  text-decoration: none;
+}
+div.login {
+  background-color: transparent;
+  padding-bottom: 5px;
+  margin: 0px auto;
+  width: 800px;
+}
+div.content {
+  margin-bottom: 30px;
+  background-color: white;
+}
+div.titles, div.users, div.categories, div.statistics {
+  margin-bottom: 10px;
+}
+div.roundtop {
+  background: #EEF;
+}
+div.roundbottom {
+  background: #EEF;
+}
+.r1{margin: 0 5px; height: 1px; overflow: hidden; background: white;}
+.r2{margin: 0 3px; height: 1px; overflow: hidden; background: white;}
+.r3{margin: 0 2px; height: 1px; overflow: hidden; background: white;}
+.r4{margin: 0 1px; height: 2px; overflow: hidden; background: white;}
+div.container {
+  background-color: white;
+  padding: 1px 5px;
+}
+span.occupation {
+  padding-left: 5px;
+  font-size: 9px;
+}
+div.comment {
+  border-top: 1px dotted black;
+  padding-left: 20px;
+  font-size: 10px;
+}
+p.commentator {
+  font-size: 9px;
+  background-color: #EEE;
+  padding: 2px;
+  border-top: solid 1px #666;
+  border-bottom: solid 1px #666;
+}
+div.commentform {
+  border-top: 2px solid #66C;
+}
